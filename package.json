@@ -20,11 +20,11 @@
     "node": "^16 || ^18"
   },
   "dependencies": {
-    "@ibm-cloud/cloudant": "0.6.0",
+    "@ibm-cloud/cloudant": "0.12.23",
     "async": "3.2.4",
     "commander": "11.0.0",
     "debug": "4.3.4",
-    "tmp": "0.2.1"
+    "tmp": "0.2.7"
   },
   "peerDependencies": {
     "ibm-cloud-sdk-core": "^4.0.9",
@@ -46,12 +46,12 @@
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "6.1.1",
     "http-proxy": "1.18.1",
-    "mocha": "10.2.0",
+    "mocha": "11.7.6",
     "nock": "13.3.3",
     "tail": "2.2.6",
     "toxy": "0.3.16",
-    "uuid": "9.0.0",
-    "lodash": "4.17.21"
+    "uuid": "14.0.0",
+    "lodash": "4.18.1"
   },
   "scripts": {
     "lint": "eslint --ignore-path .gitignore .",
